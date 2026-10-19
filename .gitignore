@@ -1,0 +1,5 @@
+node_modules/
+*.tmp
+*.tmp1024.png
+.DS_Store
+Thumbs.db

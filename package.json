@@ -1,0 +1,14 @@
+{
+  "name": "shipsafe-pg-migration-safe-lite",
+  "version": "1.0.0",
+  "description": "Free zero-dependency static checker for catastrophic PostgreSQL migration patterns (DROP TABLE/COLUMN, DELETE/UPDATE without WHERE). Lite edition by ShipSafe.",
+  "type": "module",
+  "bin": { "pg-migration-safe-lite": "scripts/audit.mjs" },
+  "scripts": { "test": "node --test \"tests/*.test.mjs\"" },
+  "engines": { "node": ">=18" },
+  "keywords": ["postgres", "postgresql", "migration", "sql", "safety", "database", "static-analysis", "agent-skill", "ci"],
+  "license": "MIT",
+  "author": "ShipSafe",
+  "homepage": "https://shipsafe.gumroad.com/l/pg-migration-safe",
+  "repository": { "type": "git", "url": "https://github.com/sawanmani/shipsafe-pg-migration-safe-lite" }
+}
